@@ -1,0 +1,9 @@
+
+À l'instar du compilateur C, le compilateur C++ produit du code
+natif, i.e., qu'il produit un exécutable propre à l'environnement de
+travail ou le code source est compilé.
+On doit donc créer les exécutables pour chaque type d'architecture
+potentielle des clients.
+
+
+

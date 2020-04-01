@@ -1,0 +1,27 @@
+-Semaine du 23
+--------------
+Actions effectuées :
+-lecture documents sur
+	blibliotheque : https://alexandre-laurent.developpez.com/tutoriels/c-cpp/installation-et-configuration-d-une-bibliotheque/
+	makefile : 	rapport de stage de Sophie Batumbo
+		   	https://www.youtube.com/watch?v=2VV9FAQWHdw&t=254s (tuto make file)
+			https://gl.developpez.com/tutoriel/outil/makefile/
+			
+-creation compte et utilisation de github  
+-creation VM lubuntu
+-Installation de clang mingw64,Code Blocks sur Linux 
+-Installation de code Blocks sur windows
+
+-Annexe :
+	-lu les cour Intro, Intro Java, Concept Heritage
+	Java exercice 1 et 2 TD1
+
+Points bloquant:
+- clang minw64 sur windows 
+- compilateur par defaut mingw64 sur lubuntu
+- ligne de commande java ne marche pas
+
+semaine du 30
+--------------
+Action effectuées :
+
