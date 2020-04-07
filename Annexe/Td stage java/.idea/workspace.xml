@@ -48,7 +48,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.monde2">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pullover.main.Main" />
+      <module name="Td stage java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pullover.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MondeMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Monde.main.MondeMain" />
       <extension name="coverage">
@@ -89,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.monde2" />
         <item itemvalue="Application.MondeMain (1)" />
         <item itemvalue="Application.MondeMain" />
@@ -113,7 +127,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

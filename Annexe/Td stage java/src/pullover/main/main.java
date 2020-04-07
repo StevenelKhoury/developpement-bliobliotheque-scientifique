@@ -1,12 +1,18 @@
 package pullover.main;
 
-import java.util.ArrayList;
+import pullover.modele.Pull;
+import pullover.modele.Rayon;
 
-public class main {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
     public static void main(String[] args) {
-        List<pull> listePull =new ArrayList<>();
-        pull c1 = new pull();
-        pull c2 = new pull();
+        Pull c1 = new Pull("test",true,false,true,"bleu",false);
+        Pull c2 = new Pull("test",true,false,true,"rouge",false);
+        Pull c3 = new Pull("test",true,false,true,"bleu",true);
+
     }
+
 
 }
