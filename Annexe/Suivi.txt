@@ -25,3 +25,14 @@ semaine du 30
 --------------
 Action effectuées :
 
+-Installation de clang mingw64,Code Blocks sur Windows 
+
+-Annexe :
+	
+	-Java exercice pullover TD1
+
+
+Points bloquant:
+- Compilateur code blocks 
+- Java tri 
+
