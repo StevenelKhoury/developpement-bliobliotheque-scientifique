@@ -7,6 +7,7 @@ public class Rayon {
 
 
     public Rayon(Pull a) {
+        this.tabpull= new Pull[1];
         this.tabpull[0] = a;
     }
 
@@ -17,7 +18,7 @@ public class Rayon {
         } else {
             Pull tmppull[] = new Pull[tabpull.length + 1]; //type nom = new type[taille du tableau]
             System.arraycopy(tabpull, 0, tmppull, 0, tabpull.length + 0);
-            tmppull[tmppull.length] = a;
+            tmppull[tmppull.length-1] = a;
             this.tabpull = tmppull;
             return true;
         }
@@ -62,5 +63,6 @@ public class Rayon {
             }
         }
     }
+    
 }
 

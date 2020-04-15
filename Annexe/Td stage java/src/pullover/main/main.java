@@ -13,8 +13,7 @@ public class Main {
         Pull c3 = new Pull(13,14,true,"rouge",true);
 
 
-        Rayon r = new Rayon(null);
-        r.addpull(c1);
+        Rayon r = new Rayon(c1);
         r.addpull(c2);
         r.addpull(c3);
         System.out.println(r);
