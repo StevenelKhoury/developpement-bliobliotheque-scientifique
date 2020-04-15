@@ -7,7 +7,7 @@ public class Rayon {
 
 
     public Rayon(Pull a) {
-        this.tabpull[0] = new Pull[1];;
+        this.tabpull[0] = a;
     }
 
     public boolean addpull(Pull a) { //argument à mettre (type)
@@ -23,7 +23,7 @@ public class Rayon {
         }
     }
 
-    public boolean enleveAbime(c) { //faire un equals
+ /*   public boolean enleveAbime(Pull c) { //faire un equals
         for (int p = 0; p < tabpull.length; p++) {
             if (tabpull[p].getabime() == true) {
                 tabpull[p] = null; // recupérer à le prix et en faire la somme des prix
@@ -32,10 +32,12 @@ public class Rayon {
         }
         return true;
     }
-    public boolean enleveAbime(couleur){
-        equals . equal
-    }
 
+
+    public boolean enleveAbime(String couleur){
+      //  equals . equal
+    }
+*/
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Rayon \n");
@@ -45,5 +47,20 @@ public class Rayon {
         return sb.toString();
     }
 
+
+    public void triABulle(){
+        int taille= this.tabpull.length;
+        Pull tmp;
+        int i,j;
+        for(i=0;i<taille;i++) {
+            for(j=0;j<taille-1;j++) {
+                if(tabpull[j].compareTo(tabpull[j+1])>0) {
+                    tmp=tabpull[j+1];
+                    tabpull[j+1]=tabpull[j];
+                    tabpull[j]=tmp;
+                }
+            }
+        }
+    }
 }
 
