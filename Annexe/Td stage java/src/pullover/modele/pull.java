@@ -3,17 +3,17 @@ package pullover.modele;
 import java.util.*;
 
 public class Pull {
-    private String pull;
-    private boolean misenrayon;
-    private boolean vendus;
-    private boolean plie;
-    private String couleur;
-    private boolean abime;
 
-    public Pull(String pull, boolean misenrayon, boolean vendus, boolean plie, String couleur,boolean abime){
-        this.pull=pull;
-        this.misenrayon= misenrayon;
-        this.vendus=vendus;
+    private final double prix;
+    private boolean plie;
+    private final String couleur;
+    private boolean abime;
+    private static String modele;
+    private static String Marque;
+
+
+    public Pull(double prix, boolean misenrayon, boolean vendus, boolean plie, String couleur,boolean abime){
+        this.prix=prix;
         this.plie=plie;
         this.couleur=couleur;
         this.abime=abime;
@@ -37,6 +37,9 @@ public class Pull {
         return sb.toString();
     }
 
+        compareto //compare to de pullover uniquement la couleur chien de caractère de la couleur (tri à bulle, selection) attribut finale question 7 pas 8
 
 
+if
 }
+//entete des methode, attribut des classe avec leur entetes

@@ -36,3 +36,25 @@ Points bloquant:
 - Compilateur code blocks 
 - Java tri 
 
+semaine du 6
+--------------
+
+Action effectuées :
+
+-Test réussi de mingw64 sur Windows
+
+-Fork de Marmotte MDP
+
+-MDPjouet11 et MSPjouet10 lu
+
+
+Point en cours :
+
+-Java 
+
+-rapport avec TexMaker 
+
+
+Point bloquant 
+
+-test mingw avec Linux (manque de temps fetes religieuse)

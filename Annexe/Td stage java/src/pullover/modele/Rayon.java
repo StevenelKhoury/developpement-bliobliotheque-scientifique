@@ -1,14 +1,13 @@
 package pullover.modele;
 
-import java.util.Arrays;
-import java.util.Collections;
+
 public class Rayon {
     private static int capacite = 30;
-    private Pull tabpull[] = new Pull[1];
+    private Pull tabpull[];
 
 
     public Rayon(Pull a) {
-        this.tabpull[0] = a;
+        this.tabpull[0] = new Pull[1];;
     }
 
     public boolean addpull(Pull a) { //argument à mettre (type)
@@ -24,13 +23,17 @@ public class Rayon {
         }
     }
 
-    public boolean enleveAbime() {
+    public boolean enleveAbime(c) { //faire un equals
         for (int p = 0; p < tabpull.length; p++) {
             if (tabpull[p].getabime() == true) {
-                tabpull[p] = null;
+                tabpull[p] = null; // recupérer à le prix et en faire la somme des prix
+
             }
         }
         return true;
+    }
+    public boolean enleveAbime(couleur){
+        equals . equal
     }
 
     @Override
@@ -41,5 +44,6 @@ public class Rayon {
         }
         return sb.toString();
     }
+
 }
 
