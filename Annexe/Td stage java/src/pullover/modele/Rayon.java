@@ -7,7 +7,7 @@ public class Rayon {
 
 
     public Rayon(Pull a) {
-        this.tabpull= new Pull[1];
+        this.tabpull = new Pull[1];
         this.tabpull[0] = a;
     }
 
@@ -18,51 +18,65 @@ public class Rayon {
         } else {
             Pull tmppull[] = new Pull[tabpull.length + 1]; //type nom = new type[taille du tableau]
             System.arraycopy(tabpull, 0, tmppull, 0, tabpull.length + 0);
-            tmppull[tmppull.length-1] = a;
+            tmppull[tmppull.length - 1] = a;
             this.tabpull = tmppull;
             return true;
         }
     }
 
- /*   public boolean enleveAbime(Pull c) { //faire un equals
-        for (int p = 0; p < tabpull.length; p++) {
-            if (tabpull[p].getabime() == true) {
-                tabpull[p] = null; // recupérer à le prix et en faire la somme des prix
+    /*   public boolean enleveAbime(Pull c) { //faire un equals
+           for (int p = 0; p < tabpull.length; p++) {
+               if (tabpull[p].getabime() == true) {
+                   tabpull[p] = null; // recupérer à le prix et en faire la somme des prix
 
-            }
-        }
-        return true;
-    }
+               }
+           }
+           return true;
+       }
 
 
-    public boolean enleveAbime(String couleur){
-      //  equals . equal
-    }
-*/
+       public boolean enleveAbime(String couleur){
+         //  equals . equal
+       }
+   */
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Rayon \n");
-        for (Pull p: this.tabpull) {
+        for (Pull p : this.tabpull) {
             sb.append(p);
         }
         return sb.toString();
     }
 
 
-    public void triABulle(){
-        int taille= this.tabpull.length;
+    public void triABulle() {
+        int taille = this.tabpull.length;
         Pull tmp;
-        int i,j;
-        for(i=0;i<taille;i++) {
-            for(j=0;j<taille-1;j++) {
-                if(tabpull[j].compareTo(tabpull[j+1])>0) {
-                    tmp=tabpull[j+1];
-                    tabpull[j+1]=tabpull[j];
-                    tabpull[j]=tmp;
+        int i, j;
+        for (i = 0; i < taille; i++) {
+            for (j = 0; j < taille - 1; j++) {
+                if (tabpull[j].compareTo(tabpull[j + 1]) > 0) {
+                    tmp = tabpull[j + 1];
+                    tabpull[j + 1] = tabpull[j];
+                    tabpull[j] = tmp;
                 }
             }
         }
     }
-    
-}
 
+
+    public void triSelect() {
+        Pull tmp;
+        int taille = this.tabpull.length-1;
+        for (int i = 1; i <= taille-1; i++) {
+            int m=i;
+            for (int j = i + 1; j <= taille; j++)
+                if (tabpull[j].compareTo(tabpull[m]) > 0) {
+                    m = j;
+                    tmp = tabpull[m];
+                    tabpull[m] = tabpull[i];
+                    tabpull[i] = tmp;
+                }
+        }
+    }
+}
