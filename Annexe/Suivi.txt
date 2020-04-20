@@ -45,7 +45,7 @@ Action effectuées :
 
 -Fork de Marmotte MDP
 
--MDPjouet11 et MSPjouet10 lu
+-MDPjouet11 et MDPjouet10 lu
 
 
 Point en cours :
@@ -58,3 +58,48 @@ Point en cours :
 Point bloquant 
 
 -test mingw avec Linux (manque de temps fetes religieuse)
+
+
+
+
+semaine du 13
+---------------
+
+Action effectuées :
+ 
+- recuperer l'aborescence de marmotte mdp sous linux
+
+- TD Java
+
+- make installé sous windows via MSYS
+
+Action en cours :
+
+- TD Java
+
+- Test makefile
+
+- Ecriture du rapport annexe installation make 
+
+
+
+Point bloquant :
+
+- mingw bloqué par windows defender (résolu mais m'as fait perdre du temps)
+
+
+semaine du 20
+--------------
+
+Action effectuées :
+
+- Java Cours héritage 
+
+
+Action en cours :
+
+-TD java
+
+
+
+

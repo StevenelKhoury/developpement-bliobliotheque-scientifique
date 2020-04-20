@@ -79,4 +79,28 @@ public class Rayon {
                 }
         }
     }
+
+    public int nbcasevide(Pull b){              //deuxieme variable or boucle
+        int nbcasevid=0;
+        int taille =this.tabpull.length;
+        for (int i=0;i<=taille;i++) {
+            if (tabpull[i]==null){
+                nbcasevid=nbcasevid+1;
+            }
+        }
+        return nbcasevid;
+    }
+
+   public void nouveautableau() {
+        int i;
+        int taille = tabpull.length;
+        Pull newtab[] = new Pull[tabpull.length - nbcasevide(tabpull)];
+        for (i = 0; i < tabpull.length; i++) {
+            for (int j = 0; j < tabpull.length; j++) {
+                if (tabpull[i] != null) {
+                    newtab[i] = tabpull[i];
+                }
+            }
+        }
+    }
 }

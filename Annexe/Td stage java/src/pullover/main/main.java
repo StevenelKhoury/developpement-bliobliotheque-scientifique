@@ -21,7 +21,7 @@ public class Main {
         r.addpull(c4);
         r.addpull(c5);
         System.out.println(r);
-        r.triSelect();
+        r.triABulle();
         System.out.println(r);
     }
 
