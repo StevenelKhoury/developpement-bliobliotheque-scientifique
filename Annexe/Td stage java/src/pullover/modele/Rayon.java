@@ -90,7 +90,7 @@ public class Rayon {
         }
         return nbcasevid;
     }
-
+/*
    public void nouveautableau() {
         int i;
         int taille = tabpull.length;
@@ -103,4 +103,6 @@ public class Rayon {
             }
         }
     }
+
+ */
 }

@@ -94,12 +94,19 @@ semaine du 20
 Action effectuées :
 
 - Java Cours héritage 
+- Java TD (pas encore fini)
+- Make File crée
+- Installation Marmotte MDP Linux
 
 
 Action en cours :
 
 -TD java
 
+-Custom Make File Marmotte Base
 
+
+
+mettre build target 
 
 
