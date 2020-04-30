@@ -27,4 +27,8 @@ public class debitBoisson {
         this.Licence=4;
         System.out.println("noob3");
     }
+
+    public String getLicence(){
+        return this.Licence;
+    }
 }

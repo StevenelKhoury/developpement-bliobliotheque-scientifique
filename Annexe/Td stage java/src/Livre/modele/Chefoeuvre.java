@@ -1,4 +1,5 @@
 package Livre.modele;
+import java.util.Random;
 
 public class Chefoeuvre extends Oeuvre {
 
@@ -47,10 +48,8 @@ public class Chefoeuvre extends Oeuvre {
     public boolean like(){
         boolean like;
         int random = 0;
-        while (random !=100)
-        {
-            random = (int)(Math.random()*100);
-        }
+        random = (int)(Math.random()*100);
+        System.out.println(random);
         if(random<70){
             like=true;
             return like;
