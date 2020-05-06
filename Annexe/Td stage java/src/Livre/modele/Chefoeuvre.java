@@ -1,34 +1,34 @@
 package Livre.modele;
 import java.util.Random;
 
-public class Chefoeuvre extends Oeuvre {
+public class ChefOeuvre extends Oeuvre {
 
     private float popularity;
 
 
-    public Chefoeuvre(String titre, String auteur, int nbpage, int critique, boolean recommandation, float popularity, String editeur) {
+    public ChefOeuvre(String titre, String auteur, int nbpage, int critique, boolean recommandation, float popularity, String editeur) {
         super(titre, auteur, nbpage, critique, recommandation, editeur);
         this.popularity = popularity;
     }
 
-    public Chefoeuvre(String titre, String auteur, int nbpage, boolean recommandation) {
+    public ChefOeuvre(String titre, String auteur, int nbpage, boolean recommandation) {
         super(titre, auteur, nbpage, 3, recommandation);
         this.popularity = 50;
     }
 
-    public Chefoeuvre(String titre, boolean recommandation, String editeur) {
+    public ChefOeuvre(String titre, boolean recommandation, String editeur) {
         super(titre, 2, recommandation, editeur);
         this.popularity = 60;
     }
 
 
-    @Override
+ /*   @Override
     public int Lecture(){
         int p;
         p=super.Lecture();
         return p*3/4;
     }
-
+*/
 
     @Override
     public void oh(){

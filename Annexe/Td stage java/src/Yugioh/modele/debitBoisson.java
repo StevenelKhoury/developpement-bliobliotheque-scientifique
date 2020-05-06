@@ -28,7 +28,26 @@ public class debitBoisson {
         System.out.println("noob3");
     }
 
-    public String getLicence(){
+    public int getLicence(){
         return this.Licence;
     }
+    public double getCA(){
+        return this.CA;
+    }
+
+
+    public void tropStyle(){
+        System.out.println(CA/Licence);
+    }
+
+    public String toString(){
+        final StringBuilder a = new StringBuilder();
+        a.append("Nom de la Societe : ").append(this.NomSociete);
+        a.append("\n");
+        a.append("Chiffre d'Affaire : ").append(this.CA);
+        a.append("\n");
+        a.append("Licence : ").append(this.Licence);
+        return a.toString();
+    }
+
 }

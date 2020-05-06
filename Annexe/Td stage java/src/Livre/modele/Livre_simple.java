@@ -28,12 +28,12 @@ public class Livre_simple {
         this.editeur=editeur;
     }
 
-    public int Lecture(){
+ /*   public int Lecture(){
         int p;
-        p=this.nbpage;
+        p=p*(nbpage);
         return p;
     }
-
+*/
     public String getTitre(){
         return this.titre;
     }
@@ -67,7 +67,7 @@ public class Livre_simple {
         a.append("\n");
         a.append("editeur : ").append(this.editeur);
         a.append("\n");
-        a.append("wesh :").append(this.Lecture());
+        //a.append("wesh :").append(this.Lecture());
 
         return a.toString();
     }

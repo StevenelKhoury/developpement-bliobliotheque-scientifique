@@ -30,14 +30,14 @@ public class Oeuvre extends Livre_simple  {
         return this.recommandation;
     }
 
-
+/*
     @Override
     public int Lecture(){
          int p;
          p=super.Lecture();
          return p*2;
     }
-
+*/
     @Override
     public void oh(){
         System.out.println("J'aime les classiques");
@@ -58,10 +58,7 @@ public class Oeuvre extends Livre_simple  {
     public boolean like(){
          boolean like;
          int random = 0;
-         while (random !=100)
-         {
-             random = (int)(Math.random()*100);
-         }
+         random = (int)(Math.random()*100);
          if(random>50){
              like=true;
              return like;
