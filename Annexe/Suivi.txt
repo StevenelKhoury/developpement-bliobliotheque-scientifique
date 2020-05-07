@@ -110,3 +110,28 @@ Action en cours :
 mettre build target 
 
 
+semaine du 1
+-------------
+
+Action effectué :
+
+Java
+- TD 2 java fini 
+- Commencé le TD3 
+- Lu les cours sur le transtypage et les classes abstraites
+
+Linux 
+-Création MDPjouetSteven 
+-mis a jour du make file 
+
+Windows
+..
+
+Action en cours 
+
+-makefile sous windows 
+
+Point bloquant :
+
+-Compilation Linux 
+
