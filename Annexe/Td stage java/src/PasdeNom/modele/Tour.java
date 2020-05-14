@@ -44,6 +44,10 @@ public class Tour {
         System.out.println("clavier externe");
     }
 
+    public void ports(int x){
+        System.out.println(x);
+    }
+
 }
 
 

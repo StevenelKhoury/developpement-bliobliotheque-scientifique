@@ -4,12 +4,9 @@ public class Tablette extends Portable{
 
     boolean _3g;
 
-    public Tablette(int NumSerie, ModuleConnexion moduleConnexion, boolean suppclavier) {
-        super(NumSerie, moduleConnexion,suppclavier);
+    public Tablette(int NumSerie, ModuleConnexion moduleConnexion, boolean suppclavier,boolean ActivateWifi,  boolean _3gactivate) {
+        super(NumSerie, moduleConnexion,suppclavier,ActivateWifi,_3gactivate);
     }
-
-
-
 
 
     @Override
@@ -25,5 +22,9 @@ public class Tablette extends Portable{
         else{
             System.out.println("clavier connectée");
         }
+    }
+
+    public void ports(int x,int y,int z){
+        System.out.println(x+y+z);
     }
 }

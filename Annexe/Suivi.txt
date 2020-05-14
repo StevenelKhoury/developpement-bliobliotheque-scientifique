@@ -135,3 +135,36 @@ Point bloquant :
 
 -Compilation Linux 
 
+
+semaine du 8
+--------------
+
+Action effectué :
+
+Java 
+
+-TD 3 exo 1 -- question 14
+
+
+Linux 
+
+-Création et compilation des 2 exemples
+
+
+Rédaction mémoire 
+
+- Modèle mathématique fait ? (attends votre confirmation)
+
+
+Point bloquant :
+
+-Compilation Windows avec le makefile
+
+
+
+
+ 
+
+
+
+ 

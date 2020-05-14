@@ -6,7 +6,7 @@ public class Portable extends Tour {
     private boolean SuppClavier;
 
     public Portable(int NumSerie, ModuleConnexion moduleConnexion, boolean SuppClavier,boolean ActivateWifi, boolean _3gactivate) {
-        super(NumSerie,moduleConnexion,ActivateWifi,_3gactivate);
+        super(NumSerie, moduleConnexion,ActivateWifi,_3gactivate);
         this.SuppClavier = SuppClavier;
     }
 
@@ -54,6 +54,9 @@ public class Portable extends Tour {
         System.out.println("je suis mobile");
     }
 
+    public void ports(int x,int y){
+        System.out.println(x+y);
+    }
 
 
 
