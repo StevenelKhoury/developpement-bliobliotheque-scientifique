@@ -14,6 +14,15 @@ public class Tablette extends Portable{
         System.out.println("je suis une tablette");
     }
 
+    public boolean _3GAdHoc(Tour a){
+        if(get_3gactivate()==true){
+            System.out.println("tu peux etre dans les mauvaises grâce de la 3G");
+            return true;
+        }
+        return false;
+    }
+
+
     @Override
     public void saisie() {
         if (getSuppClavier() == true) {
@@ -27,4 +36,6 @@ public class Tablette extends Portable{
     public void ports(int x,int y,int z){
         System.out.println(x+y+z);
     }
+
+
 }

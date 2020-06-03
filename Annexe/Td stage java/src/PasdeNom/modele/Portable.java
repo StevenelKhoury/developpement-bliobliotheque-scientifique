@@ -21,32 +21,26 @@ public class Portable extends Tour {
 
     @Override
     public void saisie() {
-        if (this.SuppClavier = true) {
+        if (this.SuppClavier == false) {
             System.out.println("clavier interne");
         }
         else {
-            System.out.println("clavier connectée");
+            super.saisie();
         }
     }
 
     public boolean Wifi_AdHoc(Tour a){
-        if(getActivateWifi()==true){
+        if(getActivateWifi()){ //
             System.out.println("tu peux etre dans les bonnes grâce du wifi");
             return true;
         }
         return false;
     }
 
-    public boolean _3GAdHoc(Tour a){
-        if(get_3gactivate()==true){
-            System.out.println("tu peux etre dans les mauvaises grâce de la 3G");
-            return true;
-        }
-        return false;
-    }
 
     public void AdHoc(Tour a){
-        if(_3GAdHoc(a)==true||Wifi_AdHoc(a)==true) System.out.println("admissible");
+        if(Wifi_AdHoc(a)==true)
+            System.out.println("admissible");
         else System.out.println("pas admissible");
     }
 
@@ -54,13 +48,12 @@ public class Portable extends Tour {
         System.out.println("je suis mobile");
     }
 
+    public void PuissanceSignal(Portable a, float b){
+        System.out.println("La force du signal est de X pour ce portable qui est du type ");
+    }
+
     public void ports(int x,int y){
         System.out.println(x+y);
     }
-
-
-
-
-
 
 }
