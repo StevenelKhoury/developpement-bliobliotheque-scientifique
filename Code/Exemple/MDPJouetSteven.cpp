@@ -16,9 +16,9 @@ Copyright 2019 Emmanuel Hyon, Alain Jean-Marie
 
 /**
  * @brief file MDP_jouet10.cpp
- * @author Hyon, lip6
- * @date Jul 2019
- * @version 1.1
+ * @author Hyon,EL KHOURY lip6
+ * @date Mai 2020
+ * @version 1.0
  *
  * This .cpp file is for implementing a simple infinite discounted MDP model
  * associated with a toy problem of a marmote in the moutain.
@@ -129,11 +129,6 @@ int main( int argc, char** argv )
   for(i=0;i<stateSpace->cardinal();i++){
          printf("i=%d sol1= %f \n",i,sol1[i]);
   }
-
-  //call the function to solve the MDP.
-  fprintf(stdout,"\n\nCalcul par iteration valeur modifiee\n");
-  solutionMDP *optimum2 = mdp1->policyIterationModified(epsilon, maxIter, 0.001, 100);
-  optimum2->writeSolution();
 
 
   fprintf(stdout,"Destruction\n");
