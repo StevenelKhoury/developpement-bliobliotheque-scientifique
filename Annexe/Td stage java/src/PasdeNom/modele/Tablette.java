@@ -4,8 +4,9 @@ public class Tablette extends Portable{
 
     boolean _3g;
 
-    public Tablette(int NumSerie, ModuleConnexion moduleConnexion, boolean suppclavier,boolean ActivateWifi,  boolean _3gactivate) {
-        super(NumSerie, moduleConnexion,suppclavier,ActivateWifi,_3gactivate);
+
+    public Tablette(int NumSerie, , boolean suppclavier,boolean ActivateWifi,  boolean _3gactivate) {
+        super(NumSerie,suppclavier,ActivateWifi,_3gactivate);
     }
 
 

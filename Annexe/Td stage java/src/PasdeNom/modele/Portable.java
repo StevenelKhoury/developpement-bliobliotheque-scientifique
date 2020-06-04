@@ -5,7 +5,7 @@ import java.sql.SQLOutput;
 public class Portable extends Tour {
     private boolean SuppClavier;
 
-    public Portable(int NumSerie, ModuleConnexion moduleConnexion, boolean SuppClavier,boolean ActivateWifi, boolean _3gactivate) {
+    public Portable(int NumSerie, boolean SuppClavier,boolean ActivateWifi, boolean _3gactivate) {
         super(NumSerie, moduleConnexion,ActivateWifi,_3gactivate);
         this.SuppClavier = SuppClavier;
     }
