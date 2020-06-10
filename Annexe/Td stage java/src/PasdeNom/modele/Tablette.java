@@ -5,8 +5,9 @@ public class Tablette extends Portable{
     boolean _3g;
 
 
-    public Tablette(int NumSerie, , boolean suppclavier,boolean ActivateWifi,  boolean _3gactivate) {
-        super(NumSerie,suppclavier,ActivateWifi,_3gactivate);
+    public Tablette(int NumSerie, boolean suppClavier,boolean wifi, boolean _3g) {
+        super(NumSerie,suppClavier,wifi);
+        this._3g= _3g;
     }
 
 
@@ -16,9 +17,9 @@ public class Tablette extends Portable{
     }
 
     public boolean _3GAdHoc(Tour a){
-        if(get_3gactivate()==true){
+        if(a instanceof Tablette){
             System.out.println("tu peux etre dans les mauvaises grâce de la 3G");
-            return true;
+           return true;
         }
         return false;
     }
@@ -40,3 +41,9 @@ public class Tablette extends Portable{
 
 
 }
+
+
+//faire liste chainé
+
+//essayer de faire la classe habitation
+

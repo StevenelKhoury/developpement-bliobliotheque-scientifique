@@ -4,18 +4,20 @@ import java.sql.SQLOutput;
 
 public class Portable extends Tour {
     private boolean SuppClavier;
+    private boolean wifi;
 
-    public Portable(int NumSerie, boolean SuppClavier,boolean ActivateWifi, boolean _3gactivate) {
-        super(NumSerie, moduleConnexion,ActivateWifi,_3gactivate);
+    public Portable(int NumSerie, boolean SuppClavier, boolean wifi) {
+        super(NumSerie);
         this.SuppClavier = SuppClavier;
+        this.wifi = wifi;
     }
 
-    public boolean getSuppClavier(){
+    public boolean getSuppClavier() {
         return this.SuppClavier;
     }
 
     @Override
-    public void identite(){
+    public void identite() {
         System.out.println("je suis un portable");
     }
 
@@ -23,37 +25,53 @@ public class Portable extends Tour {
     public void saisie() {
         if (this.SuppClavier == false) {
             System.out.println("clavier interne");
-        }
-        else {
+        } else {
             super.saisie();
         }
     }
 
-    public boolean Wifi_AdHoc(Tour a){
-        if(getActivateWifi()){ //
-            System.out.println("tu peux etre dans les bonnes grâce du wifi");
+    public boolean Wifi_AdHoc(Portable p) {
+        if (p instanceof Portable){ //
+            Portable a = (Portable) p;
             return true;
         }
         return false;
     }
 
-
-    public void AdHoc(Tour a){
-        if(Wifi_AdHoc(a)==true)
-            System.out.println("admissible");
-        else System.out.println("pas admissible");
+    public boolean wifiAdHoc(Tour a) {
+        if (a instanceof Portable) {
+            Portable p = (Portable) a;
+            if (p.wifi && this.wifi) {
+                System.out.println("tu es dans la bonne grace de la wifi");
+                return true;
+            }
+        } System.out.println("pas admissible \n");
+        return false;
     }
 
-    public void mobile(){
-        System.out.println("je suis mobile");
+
+        public void adHoc (Tour a){
+            if (a instanceof Portable) {
+                Portable p = (Portable) a;
+                if (p.wifi && this.wifi) {
+                    System.out.println("Je crois que c'est ça");
+                }
+            } else super.adHoc(a);
+        }
+
+        public void mobile () {
+            System.out.println("je suis mobile");
+        }
+
+        public void PuissanceSignal (Portable a,float x){
+            System.out.println("La force du signal est de "+ x +" pour ce portable qui est du type" +getClass());
+        }
+
+        public void ports ( int x, int y){
+            System.out.println(x + y);
+        }
+
+
+
     }
 
-    public void PuissanceSignal(Portable a, float b){
-        System.out.println("La force du signal est de X pour ce portable qui est du type ");
-    }
-
-    public void ports(int x,int y){
-        System.out.println(x+y);
-    }
-
-}

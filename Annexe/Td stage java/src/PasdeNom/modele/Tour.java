@@ -4,28 +4,34 @@ import java.sql.SQLOutput;
 
 public class Tour {
     private int NumSerie;
-    // private  3G
-
-    private boolean ActivateWifi;
-    private boolean _3gactivate;
 
 
-    public Tour(int NumSerie,,boolean ActivateWifi, boolean _3gactivate) {
+
+
+    public Tour(int NumSerie) {
         this.NumSerie = NumSerie;
-        this.ActivateWifi=ActivateWifi;
-        this._3gactivate=_3gactivate;
-    }
-
-    public Tour(int NumSerie){
-        this.NumSerie=NumSerie;
-
-        this.ActivateWifi=false;
-        this._3gactivate=false;
     }
 
 
 
 
+    public static void ConnectionsListe(Tour a) {
+       if(a instanceof Tablette){
+            Tour t = (Tablette) a;
+            System.out.println("Ethernet,3G, wifi");
+            return;
+        }
+
+        if(a instanceof Portable) {
+            Tour t = (Portable) a;
+            System.out.println("Ethernet,wifi");
+            return;
+        }
+        if(a instanceof Tour){
+        System.out.println("Ethernet");
+    }
+
+    }
     public void identite(){
         System.out.println("je suis une tour");
     }
@@ -42,6 +48,9 @@ public class Tour {
         System.out.println(x);
     }
 
+    public void adHoc(Tour a) {
+        System.out.println("cablé branché");
+    }
 }
 
 
