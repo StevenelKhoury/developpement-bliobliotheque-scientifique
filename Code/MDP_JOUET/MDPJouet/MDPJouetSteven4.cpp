@@ -144,7 +144,7 @@ int main( int argc, char** argv )
 
   std::cout << critere.size() << std::endl;
   fprintf(stdout,"Debut de la construction MDP\n");
-  discountedMDP *mdp1 = new discountedMDP(critere, stateSpace, actionSpace, trans, R1,beta);
+  unfiniteHorizonDiscountedMDP *mdp1 = new finiteHorizonDiscountedMDP(critere, stateSpace, actionSpace, trans, R1,beta); //j'ai pas la bibliothèque 
   fprintf(stdout,"Fin de la construction MDP\n");
 
   fprintf(stdout,"Affichage MDP\n");

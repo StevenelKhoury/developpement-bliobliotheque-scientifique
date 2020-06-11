@@ -1,5 +1,3 @@
-Pseudo Code matrice 
-
 
 #include <cfloat>
 #include <iostream>
@@ -22,12 +20,13 @@ solutionMDP* finiteHorizonMDP::PdePi(double epsilon, int maxIter, sparseMatrice 
 		 sparseMatrix *PdePi = new sparseMatrix(stateSpace->totNbDims());
     for(nbaction=0;nbaction<sparseMatrice.size;nbaction+1)
     {	
-    	for(i=0;i<sparsematrice->getsize;i++)
+    	for(i=0;i<stateSpace->getsize;i++)
 		{
-			for(j=0;i<sparsematrice->getsize;i++)
+			for(j=0;i<stateSpace->getsize;i++)
 			{
 				PdePI->addToEntry(i,j,SparseMatrix[i][j])
 			}
 		} 
 	}
+}
 }
