@@ -12,8 +12,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,13 +49,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Livre.main.Main" />
+  <component name="RunManager" selected="Application.main">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Yugioh.main.Main" />
       <module name="Td stage java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Livre.main.*" />
+          <option name="PATTERN" value="Yugioh.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Yugioh.main.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PasdeNom.main.Main" />
       <module name="Td stage java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Yugioh.main.*" />
+          <option name="PATTERN" value="PasdeNom.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MondeMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Monde.main.MondeMain" />
+    <configuration name="Tablette" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PasdeNom.modele.Tablette" />
+      <module name="Td stage java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Monde.main.*" />
+          <option name="PATTERN" value="PasdeNom.modele.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="monde2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Monde.main.monde2" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListeChaine.main.main" />
       <module name="Td stage java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Monde.main.*" />
+          <option name="PATTERN" value="ListeChaine.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.monde2" />
-        <item itemvalue="Application.MondeMain (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Tablette" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>

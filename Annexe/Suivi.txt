@@ -170,8 +170,26 @@ RAPPORT
 
 
 
- 
+-------------
 
 
+Semaine du 8
+---------------
+
+Action effectué :
+
+Rapport mis à jour
+
+exemple 2 effectué (resultat bizarre)
+
+exemple 3 (non compréhension du constructeur)
+
+exemple 4 (pas de bibliothèque pour nonfiniteHorizion ?)
+
+makefile marmoteBase typer : version.txt : non trouvé.
+
+PdePi mis à jour.
+
+Java Liste chainée effectué.
 
  
