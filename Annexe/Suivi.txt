@@ -193,3 +193,18 @@ PdePi mis à jour.
 Java Liste chainée effectué.
 
  
+Semaine du 15
+----------------
+
+exemple 3 je pense avoir compris le constructeur mais problème d'import apparemment 
+
+test avec value iteration -> resultat incohérent (les miens)
+
+makefile fichier txt existant mais non trouvé ...
+
+
+
+
+
+
+
