@@ -49,13 +49,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Yugioh.main.Main" />
+  <component name="RunManager" selected="Application.Habitation">
+    <configuration name="Habitation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Habitation.modele.Habitation" />
       <module name="Td stage java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Yugioh.main.*" />
+          <option name="PATTERN" value="Habitation.modele.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Habitation" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Tablette" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>

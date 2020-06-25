@@ -17,16 +17,24 @@ solutionMDP* finiteHorizonMDP::PdePi(double epsilon, int maxIter, sparseMatrice 
     int* actionbuffer = (int*) calloc( actionSpace->totNbDims(), sizeof(int) );
     int* statebuffer = (int*) calloc( stateSpace->totNbDims(), sizeof(int) );
     vector<sparseMatrix*> trans(actionSpace->cardinal());
-		 sparseMatrix *PdePi = new sparseMatrix(stateSpace->totNbDims());
-    for(nbaction=0;nbaction<sparseMatrice.size;nbaction+1)
+	sparseMatrix *PdePi = new sparseMatrix(stateSpace->cardinal());
+    double *tab = (double*) calloc( stateSpace->cardinal(), sizeof(double) ))
+	for(nbaction=0;nbaction<sparseMatrice.size;nbaction+1)
     {	
-    	for(i=0;i<stateSpace->getsize;i++)
+    	for(i=0;i<stateSpace->cardinal();i++)
 		{
-			for(j=0;i<stateSpace->getsize;i++)
+			for(j=0;i<stateSpace->cardinal();i++)
 			{
-				PdePI->addToEntry(i,j,SparseMatrix[i][j])
+				PdePI->addToEntry(i,j,[i][j])
 			}
 		} 
 	}
 }
-}
+
+
+for(i=0;i<stateSpace->cardinal();i++){
+       stateSpace->nextState(statebuffer);
+       stateSpace->printState(stdout,statebuffer);
+       indiceEtat=stateSpace->index(statebuffer);
+       fprintf(stdout" etat : %d\n",indiceEtat);
+   }
