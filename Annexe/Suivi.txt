@@ -203,6 +203,21 @@ test avec value iteration -> resultat incohérent (les miens)
 makefile fichier txt existant mais non trouvé ...
 
 
+Semaine du 22
+
+---------------
+
+Java class Habitation 
+
+makefile tentative de correction
+
+mis en forme papier programmation dynamique les etats possibles et les differentes matrice de transition possible
+
+mis à jour rapport
+
+
+
+
 
 
 
