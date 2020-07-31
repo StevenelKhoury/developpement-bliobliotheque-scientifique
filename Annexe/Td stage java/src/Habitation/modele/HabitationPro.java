@@ -14,5 +14,4 @@ public class HabitationPro extends Habitation {
         a=nbemploye/10;
         return getSurface()*2+150*a;
     }
-
 }
