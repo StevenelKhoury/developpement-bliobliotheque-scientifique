@@ -19,20 +19,8 @@ solutionMDP* finiteHorizonMDP::PdePi(double epsilon, int maxIter, sparseMatrice 
     vector<sparseMatrix*> trans(actionSpace->cardinal());
 	sparseMatrix *PdePi = new sparseMatrix(stateSpace->cardinal());
     double *tab = (double*) calloc(stateSpace->cardinal(), sizeof(double) ))
-	for(nbaction=0;nbaction<sparseMatrice.size;nbaction+1)
-    {
-    	for(i=0;i<stateSpace->cardinal();i++)
-		{
-			for(j=0;i<stateSpace->cardinal();i++)
-			{
-				PdePI->addToEntry(i,j,[i][j])
-			}
-		}
-	}
-}
-
-stateSpace->firstState(statebuffer)
-for(i=0;i<stateSpace->cardinal();i++){
+	stateSpace->firstState(statebuffer)
+	for(i=0;i<stateSpace->cardinal();i++){
        stateSpace->printState(stdout,statebuffer);
        indiceEtat=stateSpace->index(statebuffer);
        indiceAction=actionSpace->getAction(indiceEtat);
@@ -41,3 +29,5 @@ for(i=0;i<stateSpace->cardinal();i++){
     	tab[indiceEtat][indiceEtat]=trans.at(indiceAction)->getEntry(indiceEtat,indiceEtat)
 	   }
    }
+
+
